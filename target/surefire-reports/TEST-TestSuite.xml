@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="63.499" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.413" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -62,22 +62,21 @@
     <property name="library.jansi.path" value="C:\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="13.073"/>
-  <testcase name="basePageNavigation" classname="Academy.HomePage" time="7.889"/>
-  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.263">
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="9.484"/>
+  <testcase name="basePageNavigation" classname="Academy.HomePage" time="5.34"/>
+  <testcase name="validateAppTitle" classname="Academy.validateTitle" time="0.11">
     <failure message="expected [FEATURED CO123URSES] but found [FEATURED COURSES]" type="java.lang.AssertionError">java.lang.AssertionError: expected [FEATURED CO123URSES] but found [FEATURED COURSES]
 	at Academy.validateTitle.validateAppTitle(validateTitle.java:42)
 </failure>
     <system-out><![CDATA[chrome
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 33279
+    <system-err><![CDATA[Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 40692
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1622527504.309][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
-Jun 01, 2021 11:35:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 01, 2021 12:31:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateAppNavBar" classname="Academy.validateNavigationBar" time="0.187"/>
+  <testcase name="validateAppNavBar" classname="Academy.validateNavigationBar" time="0.232"/>
 </testsuite>
